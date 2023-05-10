@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main-body {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 90%;
+  margin: 30px auto;
+}
+.App-link {
+  color: #61dafb;
+}
+.header{
+  width: 100%;
+  background-color: #01EDFA;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+}
+.header img{
+  width: 100px;
+}
+.header h1{
+  font-size: 50px;
+  background: linear-gradient(to right bottom,#b1bbbb,#2b3b3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.body{
+  flex: 3;
+}
+.body h2{
+  font-size: 32px;
+  color: #595b5b;
+  font-family: 'raleway';
+  
+}
+.cart{
+  flex: 1;
+}
+/* .main-card{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

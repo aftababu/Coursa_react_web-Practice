@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  flex-direction: row !important;
+  margin:  15px 0 !important;
+  box-shadow: 0 0 5px rgba(71, 70, 70, 0.356) !important;
+  width: 95% !important;
+}
+
+.image{
+  width: 300px !important;
+  height: 200px !important;
+
+}
+.card-text{
+  margin-bottom: 3px !important;
+}
+.card-img-top{
+  width: 300px !important;
+  height: 200px !important;
+}
+.my-btn{
+  background-color: #01EDFA !important;
+  color: #3c3c3c !important;
+  font-weight: 700 !important;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.svg-inline--fa{
+  color: #007678;
+}
